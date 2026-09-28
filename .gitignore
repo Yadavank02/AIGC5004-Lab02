@@ -1,5 +1,19 @@
+# Virtual environment (Explicitly required by lab rubric)
 .venv/
 env/
+venv/
+ENV/
+
+# Python bytecode and cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter and IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS artifacts
 .DS_Store
+Thumbs.db
